@@ -1,0 +1,153 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+  background-color: #e7e7e7;
+}
+
+header {
+  background-image: linear-gradient(#D32F2F, #C62828, #B71C1C) ;
+  min-height: 70px;
+  color: #fff;
+}
+.login_form{
+  float:right;
+  padding: 20px 0 20px 0;
+}
+.site_logo{
+  float:left;
+}
+.navbar-nav{
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+nav{
+  background-color: #fff !important;
+}
+.panel-heading{
+  background-image: linear-gradient(#D32F2F, #C62828, #B71C1C);
+  h3{
+    color: #fff;
+  }
+}
+.write-post{
+  margin-bottom: 10px;
+}
+.write-post-btn {
+  float: right;
+}
+
+.friends li{
+ list-style: none;
+ padding: 5px 5px 5px 0;
+ display:inline;
+ float:left;
+}
+
+.friends a.thumbnail {
+  padding: 0;
+}
+
+.friends .btn {
+  float: right;
+}
+
+footer{
+  background-image: linear-gradient(#D32F2F, #C62828, #B71C1C);
+  padding: 30px 0 20px 0;
+}
+
+footer li{
+  float: left;
+  padding: 0 10px 0 10px;
+  list-style: none;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none !important;
+}
+
+footer p{
+  float: right;
+}
+
+.bubble{
+  position:relative;
+  width: auto;
+  min-height:65px;
+  padding:15px;
+  background: #fff;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+.bubble:before{
+  content:"";
+  position:absolute;
+  border-style:solid;
+  border-width:15px 15px 15px 0;
+  border-color: transparent #ccc;
+  display: block;
+  width: 0;
+  z-index:0;
+  margin-top: -15px;
+  left: -16px;
+  top: 50%;
+}
+.bubble:after{
+  content:"";
+  position:absolute;
+  border-style:solid;
+  border-width:15px 15px 15px 0;
+  border-color: transparent #fff;
+  display: block;
+  width: 0;
+  z-index:1;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%;
+}
+
+.post-actions{
+  margin: 5px;
+}
+
+.comment-form .form-group{
+  width:90%;
+}
+
+.comment-form input[type='text']{
+  width: 100%;
+}
+
+.comment-avatar img{
+  margin-right:5px;
+}
+
+.comment{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin:5px 0;
+  overflow:auto;
+  width: 100%;
+}
+
+.groups img{
+  width: 80px !important;
+  float: left;
+  margin-right: 15px;
+}
+
+.groups .btn{
+  float: right;
+}
+
+.group-item {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+}

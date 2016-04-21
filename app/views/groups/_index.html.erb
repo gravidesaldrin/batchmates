@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"> Latest Groups</h3>
+  </div>
+  <div class="panel-body groups">
+    <% 3.times do |x| %>
+        <div class="group-item">
+          <a href="#">
+            <%= image_tag(image_url("/group#{ x + 1}.jpg")) %>
+            <h4> Sample Group One </h4>
+        </a>
+        <p> This is a Doble Sample Group </p>
+        </div>
+        <div class="clearfix"> </div>
+    <% end %>
+    <%= link_to "View All Groups", "#", class: "btn btn-default" %>
+  </div>
+</div>

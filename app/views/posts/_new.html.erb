@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">My Wall</h3>
+  </div>
+  <div class="panel-body">
+    <form>
+      <div class="form-group">
+        <textarea class="form-control write-post" placeholder="Write on the wall"></textarea>
+      </div>
+      <%= link_to "Post", "#", class: "btn btn-primary" %>
+      <div class="btn-group write-post-btn">
+        <button type="button" class="btn btn-default active">
+          <i class="fa fa-file-text-o" aria-hidden="true"></i>
+          Text</button>
+        <button type="button" class="btn btn-default">
+          <i class="fa fa-camera" aria-hidden="true"></i>
+          Image</button>
+        <button type="button" class="btn btn-default">
+          <i class="fa fa-video-camera" aria-hidden="true"></i>
+          Video</button>
+      </div>
+    </form>
+  </div>
+</div>

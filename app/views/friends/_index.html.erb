@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">My Friends</h3>
+  </div>
+  <div class="panel-body friends">
+    <ul>
+      <% 9.times do |x| %>
+      <li> <%= render "users/user_thumbnail", id: x %> </li>
+      <% end %>
+    </ul>
+    <div class="clearfix"> </div>
+    <%= link_to "View All Friends", "#", class: "btn btn-default" %>
+  </div>
+</div>

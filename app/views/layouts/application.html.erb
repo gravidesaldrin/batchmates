@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Batchmates</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <%= render "static_pages/header" %>
+    <%= render "static_pages/navbar" %>
+  </header>
+<body>
+  <%= yield %>
+</body>
+<footer>
+  <div class= "container">
+    <div class= "row">
+      <div class= "col-md-6 menu">
+        <ul>
+          <li> <a href= "#"> Home </a></li>
+          <li> <a href= "#"> About</a></li>
+          <li> <a href= "#"> Contact</a></li>
+          <li> <a href= "#"> Privacy Policy</a></li>
+          <li> <a href= "#"> Owner Information </a></li>
+        </ul>
+      </div>
+      <div class= "col-md-6 copyright">
+        <p>Copyright &copy; 2016. All Rights Reserved. By Dren Gravidez. </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
