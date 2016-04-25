@@ -1,0 +1,12 @@
+<div class="groups">
+  <h1 class="page-header">Groups</h1>
+   <% 3.times do |x| %>
+    <div class="group-item">
+      <%= image_tag(image_url("/group#{x + 1}.jpg")) %>
+      <h4> Sample Group One </h4>
+      <p> This is a Doble Sample Group </p>
+      <p><%= link_to "Join Group", "#", class: "btn btn-primary"%></p>
+    </div>
+    <div class="clearfix"></div>
+    <% end %>
+</div>

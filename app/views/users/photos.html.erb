@@ -1,0 +1,12 @@
+<div class="members">
+  <h1 class="page-header"> Photos </h1>
+  <ul class="photos gallery-parent">
+    <% 16.times do |x| %>
+      <li>
+        <a href="/logo1.jpg" data-lightbox="logo1" data-toggle="tooltip" data-placement="left"title="image<%=x+1%>" data-title="Pandicorn">
+          <%= image_tag(image_url("/logo1.jpg"), class: "img-thumbnail") %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+</div>

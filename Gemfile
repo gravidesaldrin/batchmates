@@ -22,6 +22,7 @@ gem "cancancan", "~> 1.10"
 gem "delayed_job_active_record"
 gem "sidekiq"
 gem "whenever"
+gem "lightbox2-rails"
 
 group :development, :test do
   gem "mysql2"
