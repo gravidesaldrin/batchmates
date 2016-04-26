@@ -23,6 +23,9 @@ gem "delayed_job_active_record"
 gem "sidekiq"
 gem "whenever"
 gem "lightbox2-rails"
+gem "therubyracer"  # If using Ruby
+gem "less-rails-bootstrap"
+gem "jquery-easing-rails"
 
 group :development, :test do
   gem "mysql2"

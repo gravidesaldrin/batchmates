@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   root "static_pages#home"
   get "profile" => "users#profile", :as => "profile"
   get "photos" => "users#photos", :as => "photos"
+  get "shared" => "static_pages#shared", :as => "shared"
   resources :users, only: [:index]
   resources :groups, only: [:index]
 

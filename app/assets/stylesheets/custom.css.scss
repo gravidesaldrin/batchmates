@@ -6,7 +6,7 @@ body{
   background-color: #e7e7e7;
 }
 
-header {
+header.application {
   background-image: linear-gradient(#D32F2F, #C62828, #B71C1C) ;
   min-height: 70px;
   color: #fff;
@@ -24,7 +24,7 @@ header {
     display: table;
     table-layout: fixed;
 }
-nav{
+nav.nav-application{
   background-color: #fff !important;
 }
 .panel-heading{
